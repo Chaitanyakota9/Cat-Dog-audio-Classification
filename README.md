@@ -3,16 +3,17 @@ Cat and Dog audio classification using CNN
 
 
 
-<h1 align="center">  Explainable AI for Pneumonia Classification </h1><img align='right' src = "https://media3.giphy.com/media/jridUrt4aYAbOee6Oz/giphy.gif?cid=ecf05e473en9t753zuf21ealg0qoslr1o5izeqf3g73qid3f&rid=giphy.gif&ct=s"  height="120" alt="Jahnavi Darbhamulla">
-
+<h1 align="center">  Explainable AI for Pneumonia Classification </h1>
 <br/>
 
-
-
-  [![UI ](https://img.shields.io/badge/Colab%20Interface-Link-orange?style=flat-square&logo=appveyor)](https://colab.research.google.com/drive/1MIc0iEUjqN0FRKv1DSeqLECkfMZeOF_S?usp=sharing)
  
 ## Dataset
-**ESC-50** Dataset for Environmental Sound Classification is a tagged collection of 2000 recordings of environmental sound that is appropriate for benchmarking environmental sound categorization techniques.
+**Chest X-Ray Images (Pneumonia)** 
+The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
+
+Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care.
+
+
 
 <p>
 <img src ="https://datasets.activeloop.ai/wp-content/uploads/2022/09/image-1.png" height=350 width=500>
