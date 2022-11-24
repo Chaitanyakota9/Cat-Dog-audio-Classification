@@ -6,36 +6,32 @@
 
  
 ## Dataset
-**Chest X-Ray Images (Pneumonia)** 
-The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 
-Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care.
+The dataset consists in many "wav" files for both the cat and dog classes :
+- Cat has 164 WAV files to which corresponds 1323 sec of audio
+- Dog has 113 WAV files to which corresponds 598 sec of audio
+
+All the WAV files contains 16KHz audio and have variable length.
+## Cat
+![image](https://user-images.githubusercontent.com/96674419/203718695-700bd783-4299-4f6c-9087-958401bca034.png)
+## Dog
+![image](https://user-images.githubusercontent.com/96674419/203718720-98c0bf1c-6a13-4b1e-b1de-65c5f832238e.png)
+
+Link to download dataset: [Cats-Dogs Audio Dataset](https://www.kaggle.com/datasets/mmoreaux/audio-cats-and-dogs)
 
 
+## Feature Extraction - MFCC(Mel-Frequency Cepstral Coefficients)
+> The most importent step in ML is extracting features from raw data.
 
-<p>
-<img src ="https://datasets.activeloop.ai/wp-content/uploads/2022/09/image-1.png" height=350 width=500>
-</p>
+This feature is one of the most important method to extract a feature of an audio signal and is used majorly whenever working on audio signals.
 
-It contains 50 semantic classes with 40 examples each and 5 major categories:
-- Animals
-- Natural soundscapes & water sounds
-- Human, non-speech sounds
-- Interior/domestic sounds
-- Exterior/urban noises
+MFCC Features extracted from the Audio signals:
 
-This dataset can be downloaded as a .zip file: [ESC-50 dataset](https://github.com/karoldvl/ESC-50/archive/master.zip)
+Dog:
 
-<h2>Methodology</h2>
+![image](https://user-images.githubusercontent.com/96674419/203722407-9fe2ec70-cd9a-4e24-b1e1-7e9e7ec5d009.png)
 
-<h2>Feature Extraction - MFCC</h2>
-To perform Audio classification, we first preprocess the data to extract the audio signal's relevant features using <b>MFCC</b> and then pass those important features through the deep neural network for the audio classification. The <b>Mel Frequency Cepstral Coefficients</b> (MFCCs) are short term spectral features of a signal which concisely describe the overall shape of a spectral envelope.
-Few MFCCs extracted from ESC-50 dataset: 
-<h3>Ariplane:</h3>
-<a><img src="https://user-images.githubusercontent.com/91772980/202910882-c143855e-c31c-45ae-95c1-baf898a5a68e.png"></a>
-
-<h3>Dog:</h3>
-<a><img src="https://user-images.githubusercontent.com/91772980/202910924-2df34941-9d88-4ac6-905b-d4223e54271c.png"></a>
+Cat:
 
 
 <h2> Convolutional Neural Networks </h2>
@@ -77,7 +73,3 @@ In contrast to the CNN model's results we decide to use a stateful LSTM thats al
   
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-<p align="center">
-	Made with :coffee: and :heart:
-</p>
