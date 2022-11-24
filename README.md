@@ -1,9 +1,7 @@
-# Cat-Dog-audio-Classification
-Cat and Dog audio classification using CNN
 
 
 
-<h1 align="center">  Explainable AI for Pneumonia Classification </h1>
+<h1 align="center">  Cat-Dog Audio Classification </h1>
 <br/>
 
  
