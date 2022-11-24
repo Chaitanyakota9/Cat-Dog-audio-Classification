@@ -52,3 +52,4 @@ The Convolutional Neural Network (CNN or ConvNet) is a subtype of Neural Network
   
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
