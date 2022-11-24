@@ -27,47 +27,28 @@ This feature is one of the most important method to extract a feature of an audi
 
 MFCC Features extracted from the Audio signals:
 
+Cat:
+
+![image](https://user-images.githubusercontent.com/96674419/203724825-2fe5d075-24a8-4756-aee3-1ad37f8479a2.png)
+
 Dog:
 
 ![image](https://user-images.githubusercontent.com/96674419/203722407-9fe2ec70-cd9a-4e24-b1e1-7e9e7ec5d009.png)
 
-Cat:
 
 
 <h2> Convolutional Neural Networks </h2>
+Model Architecture
+<a align="center"> <img src = "https://user-images.githubusercontent.com/96674419/203725125-0cf147c5-df44-494a-ba84-40c17f8222c3.png"> </a>
+
 <p>
-CNNs or convolutional neural nets are a type of deep learning algorithm that does really well at learning images. To use them for Audio classification we extract features which look like images and shape them in a way in order to feed them into a CNN. We use the <a href="https://librosa.org/doc/latest/index.html">librosa</a> package to do the same. 
+The Convolutional Neural Network (CNN or ConvNet) is a subtype of Neural Networks that is mainly used for applications in image and speech recognition. Its built-in convolutional layer reduces the high dimensionality of images without losing its information. That is why CNNs are especially suited for this use case. 
 </p>
-<a> <img src = "https://miro.medium.com/max/828/1*rFhL3CYygk0gGlHOmlL_Jg.png" height=300> </a>
 
 <h3>Output</h3>
-<a> <img src = "https://user-images.githubusercontent.com/91772980/202911090-57ef2c4a-591c-4206-8f80-c7a3b1da618a.png" height=400> </a>
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/96674419/203726022-03284d4b-4d29-4f5c-8b19-f27379ac7f74.png">
+<img width="312" alt="image" src="https://user-images.githubusercontent.com/96674419/203726072-6e42a08e-882d-4c6b-8a78-af71db743123.png">
 
-<h2> Recurrent Neural Networks </h2>
-<p>
-Recurrent Neural nets are a type of deep learning algorithm that can remember sequences. Audio data tends to follow a pattern which can be exploited using RNNs to classify them.
-In contrast to the CNN model's results we decide to use a stateful LSTM thats allows us to simplify the overall network structure. All we need here is the LSTM layer followed by a Dense layer.
-</p>
-<a> <img src="https://miro.medium.com/max/1100/1*LZUF32AYHYXIL1WBuyAneg.webp" height=300></a>
-<h3>Output</h3>
-<a> <img src="https://user-images.githubusercontent.com/91772980/202911103-84ab80c7-98f0-46da-882f-743c19ab9141.png" height=300> </a>
-
-
-
-
-## Contributors
-<a href="https://github.com/gautam-j/gautam-j/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=gautam-j/gautam-j" />
-</a>
-<a href="https://github.com/brijes-h/brijes-h/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=brijes-h/brijes-h" />
-</a>
-<a href="https://github.com/Manishankar9977/Manishankar9977/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Manishankar9977/Manishankar9977" />
-</a>
-<a href="https://github.com/jahnavidarbhamulla/jahnavidarbhamulla/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jahnavidarbhamulla/jahnavidarbhamulla" />
-</a>
 
 
   
