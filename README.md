@@ -44,8 +44,8 @@ The Convolutional Neural Network (CNN or ConvNet) is a subtype of Neural Network
 
 <h3>Output</h3>
 <p align="center" width="100%">
-    <img width="40%" height="300" src="https://user-images.githubusercontent.com/96674419/203726022-03284d4b-4d29-4f5c-8b19-f27379ac7f74.png">
-    <img width="40%" height="300" src="https://user-images.githubusercontent.com/96674419/203726072-6e42a08e-882d-4c6b-8a78-af71db743123.png"
+    <img width="40%" src="https://user-images.githubusercontent.com/96674419/203726022-03284d4b-4d29-4f5c-8b19-f27379ac7f74.png">
+    <img width="40%" src="https://user-images.githubusercontent.com/96674419/203726072-6e42a08e-882d-4c6b-8a78-af71db743123.png"
 </p>
 
 
