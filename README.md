@@ -36,7 +36,7 @@ Dog:
 
 <h2> Convolutional Neural Networks </h2>
 <p align="center">Model Architecture<br>
-  <img src="https://user-images.githubusercontent.com/96674419/203725125-0cf147c5-df44-494a-ba84-40c17f8222c3.png" width=50% height="750"><p/>
+  <img src="https://user-images.githubusercontent.com/96674419/203725125-0cf147c5-df44-494a-ba84-40c17f8222c3.png" width=50% height="550"><p/>
 
 <p>
 The Convolutional Neural Network (CNN or ConvNet) is a subtype of Neural Networks that is mainly used for applications in image and speech recognition. Its built-in convolutional layer reduces the high dimensionality of images without losing its information. That is why CNNs are especially suited for this use case. 
